@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chatgpt
+    username: root
+    password: lyf1577655659
+    type: com.alibaba.druid.pool.DruidDataSource
+server:
+  port: 9090
