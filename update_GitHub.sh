@@ -1,6 +1,8 @@
+echo -n "Enter version introduction:"
+read introduction
+
 git status;
 git add .;
-str="Update Date:"
 commitTime=$(date "+%Y-%m-%d %H:%M:%S");
-git commit -m "$str $commitTime";
+git commit -m "$introduction $commitTime";
 git push
