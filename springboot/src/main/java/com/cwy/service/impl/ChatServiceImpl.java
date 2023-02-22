@@ -114,7 +114,7 @@ public class ChatServiceImpl implements ChatService {
 //		String connectTimeout = prop.getProperty("connectTimeout");
 //		String connectionRequestTimeout = prop.getProperty("connectionRequestTimeout");
 //		String socketTimeout = prop.getProperty("socketTimeout");
-		String openAiKey = "";
+		String openAiKey = "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";
 //		String openAiKey = "自己申请一个chatgpt的key";
 		String connectTimeout = "60000";
 		String connectionRequestTimeout = "60000";
